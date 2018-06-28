@@ -54,15 +54,9 @@
     }
   }
   .inner_top {
-    background-color: $white;
-    h4 {
-      color: $brand-one;
-    }
-    h1 {
-      color: $brand-one;
-    }
-    a {
-      color: $black;
+    background-color: $brand-one;
+    * {
+      color: $white;
     }
     @media only screen and (min-width: 1000px) {
       flex: 1 1 25%;
@@ -81,7 +75,7 @@
     }
   }
   .inner_mid {
-    background: linear-gradient(to right, rgba(27, 159, 214, 0.8) 0%, rgba(27, 159, 214, 0.8) 100%), url("../img/draw-image.jpg") center center / cover no-repeat;
+    background: linear-gradient(to right, rgba($black, 0.8) 0%, rgba($black, 0.8) 100%), url("../img/draw-image.jpg") center center / cover no-repeat;
     h3 {
     }
     * {

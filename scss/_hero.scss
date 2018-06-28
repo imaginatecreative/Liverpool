@@ -6,7 +6,6 @@
   align-items: flex-start;
   flex-direction: column;
   flex: 1 1 60%;
-  background-blend-mode: multiply;
   @media only screen and (min-width: 1000px) {
     min-width: 600px;
   }
@@ -18,17 +17,31 @@
     padding: 2rem 2rem 2rem 2rem;
     text-align: right;
   }
-
   * {
-    width: 100%;
     color: $white;
+
   }
   h1 {
-    margin-bottom: 0;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin: 0.5rem 0;
+    &:nth-of-type(1) {
+      background-color: rgba($black, 0.7);
+    }
+    &:nth-of-type(2) {
+      background-color: $brand-one;
+    }
+    &:nth-of-type(3) {
+      background-color: rgba($black, 0.7);
+    }
 
   }
   h4 {
     margin-bottom: 0;
     text-transform: inherit;
+    padding: .5rem 1rem;
+    display: inline-block;
+    background-color: $darkgray;
+    max-width: 70%;
   }
 }

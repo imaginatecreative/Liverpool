@@ -1,9 +1,19 @@
 
-$black: #1F1F1F;
-$white: #fffff;
-$true-black: #000000;
-$brand-one: rgb(27, 159, 214);
-$grey: #8E8E8E;
+$white: #ffffff;
+$grey: #C0C0C0;
+$darkgray: #666666;
+$black: #2b2b2b;
+
+$brand-one: rgb(227,27,35);
+$brand-two: #A1DAF8;
+$brand-three: #0069B4;
+$brand-four: #41C0F0;
+
+$brand-five: #FFE082;
+$brand-six: #F7A700;
+$brand-seven: #F08300;
+
+
 
 section, header, footer {
   width: 100%;
@@ -53,7 +63,8 @@ body {
       width: auto;
       display: inline-block;
       .block {
-        max-width: 250px;
+        width: 100%;
+        max-width: 490px;
       }
     }
     @media only screen and (max-width: 750px) {
