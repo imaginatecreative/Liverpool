@@ -93,7 +93,9 @@
     }
   }
   .inner_mid {
-    background: linear-gradient(to right, rgba($black, 0.8) 0%, rgba($black, 0.8) 100%), url("../img/draw-image.jpg") center center / cover no-repeat;
+    background: url("../img/versus.png")  center 110% / contain no-repeat,
+    linear-gradient(to right, rgba($black, 0.8) 0%, rgba($black, 0.8) 100%),
+    url("../img/draw-image.jpg") center center / cover no-repeat;
     h3 {
     }
     * {
