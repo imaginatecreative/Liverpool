@@ -31,8 +31,9 @@ form {
   display: inline-block;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #757575;
+  border-bottom: 1px solid $white;
   box-sizing: border-box;
+  background: transparent;
 }
 
 .inputMaterial:focus {
@@ -47,7 +48,7 @@ legend {
   h4 {
     text-transform: uppercase;
     font-family: $font-family;
-    color: $brand-three;
+    color: $white;
     font-size: $header-size / 1.9;
 
   }
@@ -65,7 +66,7 @@ legend {
 }
 
 label {
-  color: $brand-one;
+  color: $white;
   font-size: 14px;
   font-weight: normal;
   position: absolute;
@@ -87,7 +88,7 @@ input.inputMaterial.not-required ~ label{
 .not-empty,.inputMaterial:focus ~ label,.inputMaterial.not-required:focus ~ label, .inputMaterial:valid ~ label {
   top: -8px;
   font-size: 14px;
-  color: $brand-one;
+  color: $white;
 }
 
 
@@ -119,7 +120,7 @@ input.inputMaterial.not-required ~ label{
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: $brand-one;
+  background: $white;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -192,7 +193,7 @@ input.inputMaterial.not-required ~ label{
   padding: 5px 8px;
   width: 100%;
   border: none;
-  color: $brand-one;
+  color: $white;
 
 }
 

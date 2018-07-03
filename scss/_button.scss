@@ -18,7 +18,6 @@ button{
   display: inline-block;
   font-size: $paragraph-size;
   font-weight: 900;
-  text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 1px;
   transition-property: background-color;
@@ -49,6 +48,10 @@ button{
   }
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
+  }
+  &.alt{
+    background-color: $white;
+    color: $brand-one;
   }
 
 }
@@ -86,6 +89,7 @@ input[type=number] {
   margin: 0.5rem 0 0 0;
   border: none;
   font-size: $paragraph-size;
+  text-transform: uppercase;
   &:hover {
     background-color: $brand-one;
     color: $white;

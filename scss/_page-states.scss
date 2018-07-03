@@ -1,7 +1,10 @@
 //GENERIC FOR ALL PAGES
 .top_row{
   .hero{
-    background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-one.jpg') center center / cover no-repeat;
+    background:
+            url('../img/curve.png')center center / cover no-repeat,
+            url('../img/hero-one.jpg') center center / cover no-repeat,
+            linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%);
     @media only screen and (max-width: 750px) {
       background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-one-mobile.jpg') center center / cover no-repeat;
 
@@ -33,7 +36,7 @@
   .top_row{
     .hero{
       background:
-              url('../img/curve.png')no-repeat,
+              url('../img/curve.png')top center / contain no-repeat,
               url('../img/hero-one.jpg') center center / cover no-repeat,
               linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%);
 
@@ -50,7 +53,11 @@
 .step-one-wrapper{
   .top_row{
     .hero{
-      background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-two.jpg') center center / cover no-repeat;
+      background:
+              url('../img/curve.png')top center / contain no-repeat,
+              url('../img/hero-one.jpg') center center / cover no-repeat,
+              linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%);
+
       @media only screen and (max-width: 750px) {
         background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-two-mobile.jpg') center center / cover no-repeat;
 
@@ -63,7 +70,11 @@
 .step-two-wrapper{
   .top_row{
     .hero{
-      background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-one.jpg') center center / cover no-repeat;
+      background:
+              url('../img/curve.png')top center / contain no-repeat,
+              url('../img/hero-one.jpg') center center / cover no-repeat,
+              linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%);
+
       @media only screen and (max-width: 750px) {
         background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-one-mobile.jpg') center center / cover no-repeat;
 
@@ -76,7 +87,10 @@
 .step-three-wrapper{
   .top_row{
     .hero{
-      background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-two.jpg') center center / cover no-repeat;
+      background:
+              url('../img/curve.png')top center / contain no-repeat,
+              url('../img/hero-one.jpg') center center / cover no-repeat,
+              linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%);
       @media only screen and (max-width: 750px) {
         background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-two-mobile.jpg') center center / cover no-repeat;
 
@@ -89,7 +103,11 @@
 .step-four-wrapper{
   .top_row{
     .hero{
-      background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-one.jpg') center center / cover no-repeat;
+      background:
+              url('../img/curve.png')top center / contain no-repeat,
+              url('../img/hero-one.jpg') center center / cover no-repeat,
+              linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%);
+
       @media only screen and (max-width: 750px) {
         background:linear-gradient(to bottom, rgba(32,124,202,0) 0%,rgba(16,62,101,0) 50%,rgba(8,30,48,0.3) 76%,rgba(0,0,0,0.5) 100%),  url('../img/hero-one-mobile.jpg') center center / cover no-repeat;
 

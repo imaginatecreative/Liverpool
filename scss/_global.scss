@@ -1,6 +1,6 @@
 
 $white: #ffffff;
-$grey: #C0C0C0;
+$grey: #707070;
 $darkgray: #666666;
 $black: #2b2b2b;
 
@@ -67,8 +67,23 @@ body {
         max-width: 490px;
       }
     }
+    @media only screen and (max-width: 1250px) {
+      .inner_wrapper {
+        .block {
+          max-width: 350px;
+        }
+      }
+    }
+    @media only screen and (max-width: 1000px) {
+      .inner_wrapper {
+        .block {
+          max-width: 250px;
+        }
+      }
+    }
     @media only screen and (max-width: 750px) {
       max-width: 200px;
+
     }
     @media only screen and (max-width: 600px) {
       max-width: 150px;
