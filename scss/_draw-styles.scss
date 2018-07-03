@@ -30,6 +30,21 @@
   & .text-left {
     text-align: left;
   }
+
+  form {
+    legend {
+      h4 {
+        color: $white;
+      }
+    }
+    label {
+      color: $white;
+    }
+    .inputMaterial {
+      background-color: transparent;
+      border-color: $white;
+    }
+  }
 }
 
 //JUST FOR THE HOME PANEL
@@ -218,7 +233,7 @@
 
 //STEP FOUR
 .block.step-four {
-  *:not(a){
+  *:not(a) {
     color: $white;
   }
   background-color: $brand-one;
