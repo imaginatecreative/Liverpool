@@ -35,6 +35,11 @@
       display: inline-flex!important;
       justify-content: flex-end;
       align-items: flex-end;
+      @media only screen and (max-width: 1000px) {
+      }
+      @media only screen and (max-width: 600px) {
+        padding: 1rem;
+      }
       * {
         color: $white;
         display: block;
