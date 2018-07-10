@@ -23,7 +23,10 @@
   }
   .inner_mid {
     padding: 1rem;
-  }
+    @media only screen and (max-width: 900px) {
+
+    }
+    }
   .inner_bottom {
     padding: 1rem;
   }
@@ -96,7 +99,11 @@
     background: url("../img/versus.png")  center 110% / contain no-repeat,
     linear-gradient(to right, rgba($black, 0.8) 0%, rgba($black, 0.8) 100%),
     url("../img/draw-image.jpg") center center / cover no-repeat;
-    h3 {
+    @media only screen and (max-width: 900px) {
+      background: linear-gradient(to right, rgba($black, 0.8) 0%, rgba($black, 0.8) 100%),
+      url("../img/draw-image.jpg") center center / cover no-repeat;
+    }
+      h3 {
     }
     * {
       color: $white;
