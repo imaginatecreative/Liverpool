@@ -55,7 +55,9 @@ button{
   }
 
 }
-
+input{
+  color:$white;
+}
 input[type=submit] {
   width: auto;
   float: right;
