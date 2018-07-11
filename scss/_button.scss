@@ -143,26 +143,9 @@ input[type=number] {
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
   }
-}
-
-.step-two {
-  form{
-    input{
-      color:$white;
-    }
-    .group.tabbed {
-      ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: $brand-one;
-      }
-      ::-moz-placeholder { /* Firefox 19+ */
-        color: $brand-one;
-      }
-      :-ms-input-placeholder { /* IE 10+ */
-        color: $brand-one;
-      }
-      :-moz-placeholder { /* Firefox 18- */
-        color: $brand-one;
-      }
-    }
+  &.alt{
+    background-color: $white;
+    color: $brand-one;
   }
 }
+

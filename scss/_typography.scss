@@ -292,6 +292,9 @@ a {
   &:hover {
     color: darken($link-color, 10%);
   }
+  &.alt{
+    color: $white;
+  }
 }
 
 // Lists
