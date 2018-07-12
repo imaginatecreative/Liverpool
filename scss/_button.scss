@@ -50,8 +50,8 @@ button{
     padding: 15px 25px;
   }
   &.alt{
-    background-color: $white;
-    color: $brand-one;
+    background-color: $white!important;
+    color: $brand-one!important;
   }
 
 }
@@ -144,8 +144,8 @@ input[type=number] {
     padding: 15px 25px;
   }
   &.alt{
-    background-color: $white;
-    color: $brand-one;
+    background-color: $white!important;;
+    color: $brand-one!important;
   }
 }
 
