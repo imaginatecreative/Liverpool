@@ -28,14 +28,13 @@
     @media only screen and (max-width: 900px) {
 
     }
-    }
+  }
   .inner_bottom {
     padding: 1rem;
   }
   & .text-left {
     text-align: left;
   }
-
 
 }
 
@@ -85,14 +84,14 @@
     }
   }
   .inner_mid {
-    background: url("../img/versus.png")  center 110% / contain no-repeat,
+    background: url("../img/versus.png") center 110% / contain no-repeat,
     linear-gradient(to right, rgba($black, 0.8) 0%, rgba($black, 0.8) 100%),
     url("../img/draw-image.jpg") center center / cover no-repeat;
     @media only screen and (max-width: 900px) {
       background: linear-gradient(to right, rgba($black, 0.8) 0%, rgba($black, 0.8) 100%),
       url("../img/draw-image.jpg") center center / cover no-repeat;
     }
-      h3 {
+    h3 {
     }
     * {
       color: $white;
@@ -192,8 +191,8 @@
 //STEP TWO
 .block.step-two {
   background-color: $brand-one;
-  *:not(a):not(button){
-    color:$white;
+  *:not(a):not(button) {
+    color: $white;
   }
   form {
     margin-top: 0.5rem;
@@ -212,9 +211,9 @@
       color: $brand-one;
     }
   }
-  form{
-    input{
-      color:$white;
+  form {
+    input {
+      color: $white;
     }
     .group.tabbed {
       ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -245,6 +244,16 @@
       border-color: $white;
     }
   }
+  .tabbed {
+    .autotabbed {
+      input {
+        background-color: $brand-one;
+        color: $white;
+        border-bottom: 1px solid $white;
+      }
+    }
+  }
+
 }
 
 //STEP THREE
