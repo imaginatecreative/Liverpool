@@ -191,7 +191,7 @@
 //STEP TWO
 .block.step-two {
   background-color: $brand-one;
-  *:not(a):not(button) {
+  *:not(a):not(button):not(select) {
     color: $white;
   }
   form {
