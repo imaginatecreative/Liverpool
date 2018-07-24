@@ -313,6 +313,7 @@
     .social {
       margin-bottom: 1rem;
       display: inline-flex;
+      justify-content: center;
       button {
         &:before {
           color: $white;
