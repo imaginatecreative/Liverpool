@@ -70,7 +70,9 @@ legend {
     top: 0;
   }
 }
-
+input[type="number"]{
+  color: $black;
+}
 label {
   color: $brand-one;
   font-size: 14px;
@@ -269,7 +271,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: $white;
+  -webkit-text-fill-color: $brand-one;
   -webkit-box-shadow: 0 0 0px 1000px transparent inset;
   transition: background-color 5000s ease-in-out 0s;
 }

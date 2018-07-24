@@ -65,10 +65,11 @@ footer {
       &.social {
         justify-content: flex-end;
         padding-right: 1rem;
-        img {
-          width: 30px;
-          flex-direction: row;
-          margin-right: 5px;
+        button {
+          padding: 0.5rem;
+          &:before {
+            color: $white;
+          }
         }
       }
     }

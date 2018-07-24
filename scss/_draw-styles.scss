@@ -194,6 +194,9 @@
   *:not(a):not(button):not(select) {
     color: $white;
   }
+  select{
+    background-color:$white;
+  }
   form {
     margin-top: 0.5rem;
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -210,6 +213,9 @@
     :-moz-placeholder { /* Firefox 18- */
       color: $brand-one;
     }
+  }
+  input[type="number"]{
+    color: $white;
   }
   form {
     input {
@@ -253,7 +259,24 @@
       }
     }
   }
-
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    -webkit-text-fill-color: $white;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+  .step-two{
+    button{
+      color: $white;
+    }
+  }
 }
 
 //STEP THREE
@@ -289,6 +312,7 @@
 
     .social {
       margin-bottom: 1rem;
+      display: inline-flex;
       button {
         &:before {
           color: $white;

@@ -138,6 +138,8 @@
             autoplaySpeed: 5000,
             arrows: false,
             dots: false,
+            pauseOnHover:true,
+
             fade: true,
         });
         $('.ticker').slick({
@@ -147,7 +149,7 @@
             autoplay: true,
             autoplaySpeed: 1000,
             pauseOnHover:true,
-            // speed: 8000,
+            speed: 8000,
             cssEase:'linear',
             responsive: [
                 {
