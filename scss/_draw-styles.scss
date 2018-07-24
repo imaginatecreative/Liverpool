@@ -272,13 +272,13 @@
     -webkit-box-shadow: 0 0 0px 1000px transparent inset;
     transition: background-color 5000s ease-in-out 0s;
   }
-  .step-two{
-    button{
-      color: $white;
-    }
+
+}
+.step-two{
+  button{
+    color: $white;
   }
 }
-
 //STEP THREE
 .block.step-three {
   .embed-container {
