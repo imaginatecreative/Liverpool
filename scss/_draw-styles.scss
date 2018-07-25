@@ -213,12 +213,63 @@
     color: $black;
   }
 }
+.block.draw{
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $white;
 
+  }
+
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: $white;
+  }
+
+  :-ms-input-placeholder { /* IE 10+ */
+    color: $white;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    color: $white;
+  }
+  form {
+    input {
+      color: $white;
+    }
+    .group.tabbed {
+      ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: $brand-one;
+      }
+      ::-moz-placeholder { /* Firefox 19+ */
+        color: $brand-one;
+      }
+      :-ms-input-placeholder { /* IE 10+ */
+        color: $brand-one;
+      }
+      :-moz-placeholder { /* Firefox 18- */
+        color: $brand-one;
+      }
+    }
+  }
+}
 //STEP TWO
-.block.step-two {
+div.block.step-two {
   background-color: $brand-one;
 
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $brand-one;
 
+  }
+
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: $brand-one;
+  }
+
+  :-ms-input-placeholder { /* IE 10+ */
+    color: $brand-one;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    color: $brand-one;
+  }
   *:not(a):not(button):not(select) {
     color: $white;
   }
