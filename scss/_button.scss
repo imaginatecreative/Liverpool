@@ -52,6 +52,12 @@ button{
   &.alt{
     background-color: $white!important;
     color: $brand-one!important;
+    &:hover {
+      background-color: $brand-one!important;
+      color: $white!important;
+      outline: none;
+
+    }
   }
 
 }
