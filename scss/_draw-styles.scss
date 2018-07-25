@@ -194,6 +194,8 @@
 //STEP TWO
 .block.step-two {
   background-color: $brand-one;
+
+
   *:not(a):not(button):not(select) {
     color: $white;
   }
@@ -202,20 +204,7 @@
   }
   form {
     margin-top: 0.5rem;
-    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-      color: $brand-one;
-    }
-    ::-moz-placeholder { /* Firefox 19+ */
-      color: $brand-one;
-    }
 
-    :-ms-input-placeholder { /* IE 10+ */
-      color: $brand-one;
-    }
-
-    :-moz-placeholder { /* Firefox 18- */
-      color: $brand-one;
-    }
   }
   input[type="number"]{
     color: $white!important;
@@ -226,16 +215,16 @@
     }
     .group.tabbed {
       ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: $brand-one;
+        color: $white;
       }
       ::-moz-placeholder { /* Firefox 19+ */
-        color: $brand-one;
+        color: $white;
       }
       :-ms-input-placeholder { /* IE 10+ */
-        color: $brand-one;
+        color: $white;
       }
       :-moz-placeholder { /* Firefox 18- */
-        color: $brand-one;
+        color: $white;
       }
     }
   }
