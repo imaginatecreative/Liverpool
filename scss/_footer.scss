@@ -35,8 +35,10 @@ footer {
       z-index: 1;
       position: relative;
       @media only screen and (min-width: 750px) {
-        height: 5vh;
+        max-width: 60%;
+
       }
+      padding: 0.5rem;
     }
   }
   .inner_wrapper.acred {

@@ -247,15 +247,15 @@
     }
   }
 }
-//STEP TWO
+
+
+  //STEP TWO
 div.block.step-two {
   background-color: $brand-one;
 
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: $brand-one;
-
   }
-
   ::-moz-placeholder { /* Firefox 19+ */
     color: $brand-one;
   }

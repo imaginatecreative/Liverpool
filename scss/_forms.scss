@@ -98,7 +98,9 @@ input.inputMaterial.not-required ~ label{
   font-size: 14px;
   color: $brand-one;
 }
-
+input[type="email"]:visited ~ label{
+  color: $white;
+}
 
 /* active state */
 //.inputMaterial[type="email"] {
