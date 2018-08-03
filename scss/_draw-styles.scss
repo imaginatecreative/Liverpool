@@ -322,6 +322,15 @@ div.block.step-two {
       }
     }
   }
+  input:-webkit-autofill.edge-autofill,
+  input:-webkit-autofill.edge-autofill:hover,
+  input:-webkit-autofill.edge-autofill:focus
+  textarea:-webkit-autofill.edge-autofill,
+  textarea:-webkit-autofill.edge-autofill:hover
+  textarea:-webkit-autofill.edge-autofill:focus,
+  select:-webkit-autofill.edge-autofill,
+  select:-webkit-autofill.edge-autofill:hover,
+  select:-webkit-autofill.edge-autofill:focus,
   input:-webkit-autofill,
   input:-webkit-autofill:hover,
   input:-webkit-autofill:focus
