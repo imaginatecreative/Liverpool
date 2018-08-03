@@ -267,11 +267,19 @@ div.block.step-two {
   :-moz-placeholder { /* Firefox 18- */
     color: $brand-one;
   }
+
+
+
   *:not(a):not(button):not(select) {
     color: $white;
   }
-  select{
-    background-color:$white!important;
+
+  select,select.inputMaterial{
+    color:$white!important;
+    background-color: $brand-one;
+    option{
+      color: $brand-one;
+    }
   }
   form {
     margin-top: 0.5rem;
@@ -281,9 +289,7 @@ div.block.step-two {
     color: $white!important;
   }
   form {
-    input {
-      color: $white;
-    }
+
     .group.tabbed {
       ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         color: $white;
@@ -322,6 +328,9 @@ div.block.step-two {
       }
     }
   }
+
+
+
   input:-webkit-autofill.edge-autofill,
   input:-webkit-autofill.edge-autofill:hover,
   input:-webkit-autofill.edge-autofill:focus
