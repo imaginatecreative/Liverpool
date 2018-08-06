@@ -331,12 +331,6 @@ div.block.step-two {
 
 
 
-  input:-webkit-autofill.edge-autofill,
-  input:-webkit-autofill.edge-autofill:hover,
-  input:-webkit-autofill.edge-autofill:focus
-  textarea:-webkit-autofill.edge-autofill,
-  textarea:-webkit-autofill.edge-autofill:hover
-  textarea:-webkit-autofill.edge-autofill:focus,
   input:-webkit-autofill,
   input:-webkit-autofill:hover,
   input:-webkit-autofill:focus
@@ -347,6 +341,14 @@ div.block.step-two {
     -webkit-box-shadow: 0 0 0px 1000px transparent inset;
     transition: background-color 5000s ease-in-out 0s;
   }
+
+
+  //EDGE{
+  input.edge-autofilled,select.edge-autofilled{
+    background-color: $brand-one!important;
+    color: $white!important;
+  }
+
 
 }
 .step-two{
@@ -405,3 +407,4 @@ div.block.step-two {
   .inner_bottom {
   }
 }
+
