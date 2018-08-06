@@ -92,11 +92,17 @@
     background: url("../img/versus.png") center 110% / contain no-repeat,
     linear-gradient(to right, rgba($black, 0.8) 0%, rgba($black, 0.8) 100%),
     url("../img/draw-image.jpg") center center / cover no-repeat;
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1000px) {
       background: linear-gradient(to right, rgba($black, 0.8) 0%, rgba($black, 0.8) 100%),
       url("../img/draw-image.jpg") center center / cover no-repeat;
     }
     h3 {
+    }
+    @media only screen and (min-width: 1000px) {
+      min-height:270px;
+      h4 {
+        margin-top: -4rem;
+      }
     }
     * {
       color: $white;

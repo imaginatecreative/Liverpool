@@ -143,7 +143,7 @@
             fade: true,
         });
         $('.ticker').slick({
-            slidesToShow: 5,
+            slidesToShow: 4,
             arrows: false,
             dots: false,
             autoplay: true,

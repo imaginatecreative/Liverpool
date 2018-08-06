@@ -265,7 +265,7 @@ h5 {
 // <h6>Heading Six</h6>
 //
 // Styleguide typography.heading-six
-h6, h6 a {
+h6, h6 a, h6 span.ticker-a {
   font-size: $header-size / 3.5;
   font-weight: 400;
   strong {
@@ -297,6 +297,17 @@ a {
   position: relative;
   pointer-events: initial;
 
+  &:hover {
+    color: darken($link-color, 10%);
+  }
+  &.alt{
+    color: $white;
+  }
+}
+span.ticker-a {
+  color: $link-color;
+  z-index: 20;
+  position: relative;
   &:hover {
     color: darken($link-color, 10%);
   }

@@ -11,7 +11,12 @@
           linear-gradient(to bottom, rgba(32, 124, 202, 0) 0%, rgba(16, 62, 101, 0) 50%, rgba(8, 30, 48, 0.3) 76%, rgba(0, 0, 0, 0.5) 100%);
           @media only screen and (max-width: 750px) {
             background: linear-gradient(to bottom, rgba(32, 124, 202, 0) 0%, rgba(16, 62, 101, 0) 50%, rgba(8, 30, 48, 0.3) 76%, rgba(0, 0, 0, 0.5) 100%), url('../img/hero-one-mobile.jpg') center center / cover no-repeat;
-
+          }
+          @media only screen and (min-width:751px) and (max-width: 1466px){
+            background:
+                    url('../img/curve.png') top center / contain no-repeat,
+                    url('../img/hero-one-narrow.jpg') center center / cover no-repeat,
+                    linear-gradient(to bottom, rgba(32, 124, 202, 0) 0%, rgba(16, 62, 101, 0) 50%, rgba(8, 30, 48, 0.3) 76%, rgba(0, 0, 0, 0.5) 100%);
           }
         }
       }
