@@ -264,15 +264,7 @@ input[type="checkbox"] {
     top: -5px !important;
   }
 }
-input:-webkit-autofill.edge-autofill,
-input:-webkit-autofill.edge-autofill:hover,
-input:-webkit-autofill.edge-autofill:focus
-textarea:-webkit-autofill.edge-autofill,
-textarea:-webkit-autofill.edge-autofill:hover
-textarea:-webkit-autofill.edge-autofill:focus,
-select:-webkit-autofill.edge-autofill,
-select:-webkit-autofill.edge-autofill:hover,
-select:-webkit-autofill.edge-autofill:focus,
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus
@@ -285,6 +277,7 @@ select:-webkit-autofill:focus {
   -webkit-text-fill-color: $brand-one;
   -webkit-box-shadow: 0 0 0px 1000px transparent inset;
   transition: background-color 5000s ease-in-out 0s;
+  color: $white;
 }
 
 //REQUEST: MANTIS 0001226
