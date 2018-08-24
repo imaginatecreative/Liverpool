@@ -17,16 +17,16 @@
     flex: 1 1 50%;
   }
   & > div {
-    padding: 1rem;
+    padding: 0 1rem;
 
   }
   .inner_top {
-    padding: 1rem;
+    padding: 0 1rem;
     flex: 1 1 auto!important;
 
   }
   .inner_mid {
-    padding: 1rem;
+    padding: 0 1rem;
     flex: 1 1 auto!important;
 
     @media only screen and (max-width: 900px) {
@@ -34,7 +34,7 @@
     }
   }
   .inner_bottom {
-    padding: 1rem;
+    padding: 0 1rem;
     flex: 1 1 auto!important;
   }
   & .text-left {
@@ -108,6 +108,7 @@
       color: $white;
     }
     .verses {
+      padding: 0.5rem;
       img {
         display: inline-block;
         max-width: 100px;
@@ -171,18 +172,31 @@
     }
   }
   .inner_top {
+    h4,h4 strong{
+      font-size: 1.2rem;
+      margin-bottom: 0;
+    }
+    h3,h3 strong {
+      font-size: 1.3rem;
+      color: $brand-one;
+      width: 100%;
+      flex: 1 0 auto;
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* IE10+ CSS styles go here */
+        max-width: 300px;
+      }
+    }
     @media only screen and (min-width: 1000px) {
       flex: 1 1 250px;
-
     }
   }
   .inner_mid {
     display: inline-flex;
-
     @media only screen and (min-width: 1000px) {
       flex: 1 1 400px;
     }
-    h2 {
+    h2,h2 strong  {
+      font-size: 1.3rem;
       color: $brand-one;
       width: 100%;
       flex: 1 0 auto;
@@ -213,6 +227,12 @@
   .inner_bottom {
     @media only screen and (min-width: 1000px) {
       flex: 1 1 250px;
+    }
+    .button-primary{
+      &:nth-child(1){}
+      &:nth-child(2){
+        font-size: 0.7rem;
+      }
     }
   }
   input[type=number]{

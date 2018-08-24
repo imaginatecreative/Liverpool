@@ -1,19 +1,21 @@
-button{
-  border:none;
-  background-image:none;
-  background-color:transparent;
+button {
+  border: none;
+  background-image: none;
+  background-color: transparent;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  &:active{
+  &:active {
     outline: none;
   }
-  &:hover{
+  &:hover {
     outline: none;
   }
 
 }
+
 .button-primary, input[type=submit] {
+  margin: 0.75rem 0;
   padding: 10px 19px;
   display: inline-block;
   font-size: $paragraph-size;
@@ -24,7 +26,6 @@ button{
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   background: $brand-one;
-  margin: 0.5rem 0 0 0;
   border: none;
   color: $white;
 
@@ -34,7 +35,7 @@ button{
     outline: none;
 
   }
-  &:active,&.focus {
+  &:active, &.focus {
     background-color: $brand-two;
     color: $white;
     outline: none;
@@ -49,17 +50,20 @@ button{
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
   }
-  &.alt{
-    background-color: $white!important;
-    color: $brand-one!important;
+  &.alt {
+    border: 1px solid $brand-one;
+    background-color: $white !important;
+    color: $brand-one !important;
     &:hover {
-      background-color: $grey!important;
-      color: $white!important;
+      background-color: $brand-one !important;
+      color: $white !important;
       outline: none;
 
     }
   }
-
+  & ~ .button-primary {
+    margin-top: 0;
+  }
 }
 
 input[type=submit] {
@@ -90,10 +94,9 @@ input[type=number] {
   color: $brand-one;
 }
 
-
 .button-primary.choices {
   background: $grey;
-  margin: 0.5rem 0 0 0;
+  margin: 0.75rem 0;
   border: none;
   font-size: $paragraph-size;
   text-transform: uppercase;
@@ -101,7 +104,7 @@ input[type=number] {
     background-color: $brand-one;
     color: $white;
   }
-  &:active,&.focus {
+  &:active, &.focus {
     background-color: $brand-one;
     color: $white;
   }
@@ -111,8 +114,12 @@ input[type=number] {
     color: $white;
     outline: none;
   }
+  & ~ .button-primary {
+    margin-top: 0;
+  }
 }
-.button-secondary{
+
+.button-secondary {
   padding: 10px 20px;
   display: inline-block;
   font-size: $paragraph-size;
@@ -149,9 +156,9 @@ input[type=number] {
   @media only screen and (max-width: 768px) {
     padding: 15px 25px;
   }
-  &.alt{
-    background-color: $white!important;;
-    color: $brand-one!important;
+  &.alt {
+    background-color: $white !important;;
+    color: $brand-one !important;
   }
 }
 
